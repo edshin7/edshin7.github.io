@@ -1,4 +1,13 @@
+body {
+    background-color: rgb(200, 200, 200);
+}
+
 h1 {
     color: white;
     background-color: green;
+}
+
+p {
+    color: white;
+    background-color: rgb(250, 100, 150);
 }
