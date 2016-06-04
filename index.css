@@ -1,13 +1,17 @@
 body {
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(50, 50, 50);
+    
+    font-family: Helvetica, Verdana, sans-serif;
 }
 
 h1 {
     color: white;
-    background-color: green;
+}
+
+h5 {
+    color: white;
 }
 
 p {
-    color: white;
-    background-color: rgb(250, 100, 150);
+    color: black;
 }
