@@ -33,16 +33,10 @@ function setup() {
   centerY = height/2;
   diam = 600;
   
-  r = random(0, 255);
-  if(r < 70){
-      b = random(150, 255);
-      g = random(150, 255);
-    }
-    else{
-      b = random(0, 255);
-      g = random(0, 255);
-    }
-//  b = random(65, 255);
+  r = random(110, 255);
+  b = random(110, 255);
+  g = random(110, 255);
+
   
   displayTime = false;
 
@@ -59,7 +53,7 @@ function draw() {
 
 function clockFace(){
   
-  fill(80);
+  fill(60);
   noStroke();
   ellipse(centerX, centerY, diam, diam);
   
@@ -68,7 +62,7 @@ function clockFace(){
 function triangleTime(){
   
   sDist = (diam/2) - 20;
-  mDist = (diam/2) - 40;
+  mDist = (diam/2) - 80;
   hDist = (diam/2) - 140;
   
   secondX = centerX + sDist * cos(second() * 6 - 90);
@@ -88,17 +82,18 @@ function triangleTime(){
     fill(r, g, b, 100);
     ellipse(secondX, secondY, 20, 20);
     fill(r, g, b);
-    text("S: " + nf(second()), secondX + 20, secondY - 20);
+    text("S: " + nf(second()), secondX + 10, secondY - 10);
     
-    fill(r, g, b);
+    fill(r, g, b, 100);
+
     ellipse(minuteX, minuteY, 20, 20);
     fill(r, g, b);
-    text("M: " + nf(minute()), minuteX + 20, minuteY - 20);
+    text("M: " + nf(minute()), minuteX + 10, minuteY - 10);
     
     fill(r, g, b, 100);
     ellipse(hourX, hourY, 20, 20);
     fill(r, g, b);
-    text("H: " + nf(hour()), hourX + 20, hourY - 20);
+    text("H: " + nf(hour()), hourX + 10, hourY - 10);
   }
 }
 
@@ -107,16 +102,9 @@ function update(){
   frameRate(1);   //set so there isn't a frenzy of random colors all at once.
   
   if(second() == 59){
-    r = random(0, 255);
-
-    if(r < 70){
-      b = random(150, 255);
-      g = random(150, 255);
-    }
-    else{
-      b = random(0, 255);
-      g = random(0, 255);
-    }
+    r = random(110, 255);
+    b = random(110, 255);
+    g = random(110, 255);
 
   }
   

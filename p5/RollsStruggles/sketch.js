@@ -234,8 +234,9 @@ function updateBalls(){       //make the balls roll against the belt
     balls[bl].draw();
     balls[bl].move();
     
-    if(balls[bl].x < endPoint - balls[bl].size){
+    if(balls[bl].x < endPoint - balls[bl].size1){
       balls.splice(bl, 1);
+      print("yes")
     }
   }
 }
