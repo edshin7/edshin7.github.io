@@ -15,3 +15,27 @@ h5 {
 p {
     color: black;
 }
+
+img.featured {
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+}
+
+img.portOptions {
+    display: block;
+    margin: 0px auto;
+    width: 180px;
+    height: 180px;
+}
+
+img.portProjects {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
