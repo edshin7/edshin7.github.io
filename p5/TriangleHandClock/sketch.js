@@ -31,7 +31,7 @@ function setup() {
   
   centerX = width/2;
   centerY = height/2;
-  diam = 600;
+  diam = 650;
   
   r = random(110, 255);
   b = random(110, 255);
@@ -61,9 +61,9 @@ function clockFace(){
 
 function triangleTime(){
   
-  sDist = (diam/2) - 20;
-  mDist = (diam/2) - 80;
-  hDist = (diam/2) - 140;
+  sDist = (diam/2) - 60;
+  mDist = (diam/2) - 120;
+  hDist = (diam/2) - 180;
   
   secondX = centerX + sDist * cos(second() * 6 - 90);
   secondY = centerY + sDist * sin(second() * 6 - 90);
@@ -77,7 +77,7 @@ function triangleTime(){
   triangle(secondX, secondY, minuteX, minuteY, hourX, hourY);
   
   if(displayTime == true){
-    textSize(30);
+    textSize(20);
     
     fill(r, g, b, 100);
     ellipse(secondX, secondY, 20, 20);
