@@ -1,19 +1,38 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
-    background-color: rgb(50, 50, 50);
-    
-    font-family: Helvetica, Verdana, sans-serif;
+    background-color: rgb(30, 37, 30);
 }
 
-h1 {
+h1, h4 ,h5 {
     color: white;
 }
 
-h5 {
-    color: white;
+h2 {
+    text-align: center;
+}
+
+.panel-body h1, .panel-body h4 , .panel-body h5 {
+    color: black;
+    font-weight: 900;
 }
 
 p {
     color: black;
+}
+
+#quote, #quoter {
+    font-family: 'Lemonada', cursive;
+}
+
+#quote {
+    font-size: 120%;
+}
+
+#quoter {
+    font-size: 90%;
 }
 
 img.featured {
@@ -35,6 +54,13 @@ img.portProjects {
     margin-right: 10px;
     width: 200px;
     height: 200px;
+}
+
+img.extraImg {
+    display: block;
+    margin: 0px auto;
+    width: 600px;
+    /*height: 180px;*/
 }
 
 
