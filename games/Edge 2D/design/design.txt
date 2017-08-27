@@ -1,0 +1,31 @@
+15-112 Term Project 2016
+
+Edward Shin
+edwardsh
+Section A
+April 28, 2016
+
+
+My project is a game that creates a 2D version of an 
+iPhone game known as Edge. The main goal of this project 
+was to bring out as much of the experience of the original
+3D game into the 2D one. This experience mainly comes from 
+how the cube moves and interacts with other blocks and solids
+to reach the goal. Along with features like collecting prizes
+and activating triggers, I strove to bring out the best of Edge 
+to make even the 2D setting just as engaging and enjoyable.
+
+
+My main program of study is the original game, Edge. I really 
+enjoyed how the cube was programmed to do impossible tasks like
+balancing itself on the edge of a side block or solid It gave me 
+a more broad view of how characters could interact in a game. I also 
+appreciated how the games uses tries instead of lives so that this 
+unique game experience is not forcefully interrupted by sending the 
+player to the main page on a typical game over scenario. one thing I 
+would question are the sponteous events that occur even though a 
+trigger is not activated. It is not as big of a problem, but I think 
+it would even more interesting for the player to cause it, whether it
+is beneficial or not.Nonetheless, I truly enjoyed recreating the game 
+to bring a 2D field while maintaining all the fun features of the 
+original Edge game.
