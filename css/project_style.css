@@ -1,0 +1,34 @@
+.projectPage {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.projectPage img {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.projectPage p, h3 {
+    width: 100%;
+    text-align: left;
+}
+
+.projectPage iframe, .projectPage video {
+    width: 100%;
+    height: 350px;
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) {
+}
+
+@media only screen and (min-width: 1024px) {
+    .projectPage img {
+        height: 95%;
+    }
+
+    
+}

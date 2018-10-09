@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.nav-link {
+    margin: 0px 15px; 
+}
+
+.cover {
+    width: 100%;
+    margin: 0px 0px 100px;
+    z-index: -1;
+    -webkit-filter: brightness(70%); /* Safari 6.0 - 9.0 */
+    filter: brightness(70%);
+    position: absolute;
+}
+
+#titlePage {
+    background-image: url("images/cover.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 20%;
+    background-color: white;
+}
+
+#titlePage div {
+    width: 100%;
+    padding: 0px 10px 10px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+#titlePage h1 {
+    margin: 80px auto 30px;
+    font-size: 90px;
+}
+
+#intro, #about {
+    padding: 30px 60px;
+    color: white;
+    background-color: rgb(50, 57, 66);
+    text-align: center;
+}
+
+#portfolio {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(251, 252, 255);
+    text-align: center;
+}
+
+#portfolio h2 {
+    margin-top: 20px;
+}
+
+#portfolio img {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+#copyright {
+    margin: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#contact {
+    background-color: (244, 248, 255);
+    text-align: center;
+}
+
+#contact h2 {
+    margin: 20px;
+}
+
+#contact p {
+    margin: 20px;
+}
+
+#contact img {
+    width: 100px;
+    margin: 20px;
+}
+
+#titlePage2 {
+    padding: 40px;
+    background-image: url("images/about.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hoverContainer:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFF;
+  }
+
+  .text {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+@media only screen and (max-width: 480px) {
+    #titlePage, #titlePage2 {
+        height: 100%;
+    }
+
+    #titlePage {
+        padding: 30px;
+    }
+
+    #intro p {
+        display: none;
+    }
+
+    #about {
+        padding: 30px 20px;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    #titlePage, #titlePage2 {
+        height: 600px;
+    }
+
+    #titlePage {
+        padding: 30px;
+    }
+    
+    #about {
+        padding: 30px 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #titlePage, #titlePage2 {
+        height: 900px;
+    }
+
+    #titlePage {
+        padding: 30px 25% 30px;
+    }
+    
+    #about {
+        padding: 30px 200px;
+    }
+}

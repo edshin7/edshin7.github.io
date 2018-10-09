@@ -1,215 +1,112 @@
-<!-- 
-
-Edward Shin 
-Porfolio Website
-
--->
-
 <!DOCTYPE html>
 
 <html>
-
     <head>
-        
-        <meta charset="utf-8">
-        <title>EDWARD SHIN</title>
-
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato|Lemonada" rel="stylesheet"> 
-
-        <script src="js/jquery.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
-        <script src="js/index.js"></script>
-        <!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.9/p5.js"></script>
-        <script type="text/javascript" src="js/sketch.js" ></script> -->
-
+        <meta charset="utf-8" />
+        <title>SHIN Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.js"></script>
     </head>
 
     <body>
-
-        <div class="row">
-            
-            <div class="col-md-8 col-md-offset-2">
-                
-                <a href="#"><h1>EDWARD SHIN</h1></a>
-                <h4>Programmer | Designer</h4><br />
-
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-8 col-md-offset-2">
-                
-                <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="index.html">SHIN</a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="3_1_interactive.html">Interactive Technologies</a><br /></li>
-                            <li><a href="3_2_game.html">Game Design/Development</a><br /></li>
-                            <li><a href="3_3_programs.html">Programs</a><br /></li>
-                            <li><a href="3_4_laser.html">3D Printing/Laser Cut</a><br /></li>
-                            <li><a href="3_5_arch.html">Architecture</a><br /></li>
-                            <li><a href="3_6_other.html">Other Projects</a></li>
-                            <!-- <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li> -->
-                          </ul>
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">SHIN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                What I Made
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="html/web.html">Web Applications</a>
+                                <a class="dropdown-item" href="mobile.html">Mobile Applications</a>
+                                <a class="dropdown-item" href="html/games.html">Games / Interactive Media</a>
+                                <a class="dropdown-item" href="misc.html">Design / Misc.</a>
+                            </div>
                         </li>
-                        <!-- <li><a href="3_portfolio.html">Portfolio</a></li> -->
-                        <li><a href="2_bio.html">Bio/Resume/Contacts</a></li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-                </nav>
-
-            </div>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/about.html">Who I Am</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/contact.html">Wanna Talk?</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
-        <div class="row">
-            
-            <div class="col-md-8 col-md-offset-2">
-
-                <div class="panel panel-default">
-                  <!-- <div class="panel-heading">Welcome to my World</div> -->
-                  <div class="panel-body">
-                    <p id="quote">
-                        "You can't use up creativity. The more you use, the more you have." <br />
-                    </p>
-                    <p id="quoter">~ Maya Angelou</p>
-                  </div>
-                </div>
-
+        <div id="titlePage" class="container-fluid">
+            <div>
+                <h1>S H I N</h1>
+                <hr><br/>
+                <h3>Developer &amp; Designer</h3>
             </div>
-
         </div>
 
-        <div class="row">
-            
-            <div class="col-md-4 col-md-offset-2">
+        <div id="intro" class="container-fluid">
+            <h2>Hello and Welcome!</h2>
+            <p>My name is Edward Shin. </p>
+            <p>I am an aspiring software developer and designer working</p>
+            <p>to create fun and useful technology to further advance</p>
+            <p>society and push the limits of our creativity.</p>
+            <p>Please, feel free to take a look at my projects</p>
+            <p>from my portfolio below.</p>
 
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">Interactive Technologies</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_1_interactive.html">
-                    <img src="images/dancingStars.png" alt="Dancing Stars" class="featured">
-                    </a>
-                  </div>
-                </div>
-
-                
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">Game Development/Design</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_2_game.html">
-                    <img src="images/edge2D.png" alt="Edge 2D" class="featured">
-                    </a>
-                  </div>
-                </div>
-                
-            </div>
-
+            <p>"You can't use up creativity. The more you use, the more you have." ~ Maya Angelou</p>
         </div>
 
-        <div class="row">
-            
-            <div class="col-md-4 col-md-offset-2">
+        <div id="portfolio" class="container-fluid">
+            <h2>What I Made</h2><br/>
 
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">Programs</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_3_programs.html">
-                    <img src="images/tetris.png" alt="Tetris" class="featured">
+            <div class="row">
+                <div class="hoverContainer col-lg-4 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                    <img src="images/category_web.jpg" alt="Pic">
+
+                    <a href="html/web.html">
+                        <div class="overlay">
+                            <div class="text">Web Applications</div>
+                        </div>
                     </a>
-                  </div>
                 </div>
-                
-            </div>
+                <div class="hoverContainer col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                    <img src="images/category_mobile.jpg" alt="Pic">
 
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">3D Printing/Laser Cutting/Prototyping</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_4_laser.html">
-                    <img src="images/stand_form1.jpg" alt="Laptop Stand" class="featured">
+                    <a href="html/mobile.html">
+                        <div class="overlay">
+                            <div class="text">Mobile Apps</div>
+                        </div>
                     </a>
-                  </div>
                 </div>
-                
-                
             </div>
+            <div class="row">
+                <div class="hoverContainer col-lg-4 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                    <img src="images/category_game.jpg" alt="Pic">
 
+                    <a href="html/games.html">
+                        <div class="overlay">
+                            <div class="text">Games / Interactive Media</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="hoverContainer col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                    <img src="images/category_misc.jpg" alt="Pic">
+
+                    <a href="html/misc.html">
+                        <div class="overlay">
+                            <div class="text">Design / Misc.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br/>
+            <p id="copyright">&copy;2018</p>
         </div>
-
-        <div class="row">
-            
-            <div class="col-md-4 col-md-offset-2">
-
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">Architecture</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_5_arch.html">
-                    <img src="images/wallpaper.png" alt="Key Ripple" class="featured">
-                    </a>
-                  </div>
-                </div>
-                
-                
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h2 class="panel-title">Other Projects</h2>
-                  </div>
-                  <div class="panel-body">
-                    <a href="3_6_other.html">
-                    <img src="images/crooked.png" alt="Crooked" class="featured">
-                    </a>
-                  </div>
-                </div>
-                
-            </div>
-
-        </div>
-
     </body>
-
 </html>
-
-
-
