@@ -131,7 +131,17 @@ hr {
     }
 
     #titlePage {
-        padding: 30px;
+        padding: 20px;
+        /* color: white; */
+    }
+
+    /* #titlePage div div {
+        border-radius: 40px;
+        background-color: rgba(0, 0, 0, 0.445);
+    } */
+
+    .quote {
+        display: none;
     }
 
     #intro p {
@@ -150,6 +160,9 @@ hr {
 
     #titlePage {
         padding: 30px;
+        color: black;
+        /* border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.445); */
     }
     
     #about {
@@ -164,6 +177,9 @@ hr {
 
     #titlePage {
         padding: 30px 25% 30px;
+        color: black;
+        /* border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.445); */
     }
     
     #about {
